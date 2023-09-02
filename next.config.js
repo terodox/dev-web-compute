@@ -3,7 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
   output: "standalone",
   images: {
-    unoptimized: true,
+    domains: ["s3.riyadhseason.com"],
+    formats: ["image/webp"],
   },
 };
 

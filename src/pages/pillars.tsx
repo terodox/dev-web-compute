@@ -12,8 +12,14 @@ export default function Home() {
           name="description"
           content="An optimized picture of the pillars of creation"
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"
+        />
+        <link
+          rel="icon"
+          href="/favicon.ico"
+        />
       </Head>
       <main className={styles.main}>
         <figure>
@@ -23,6 +29,7 @@ export default function Home() {
             alt="The pillars of creation"
             height={300}
             width={900}
+            quality={75}
           ></Image>
         </figure>
         <figure>
@@ -32,6 +39,7 @@ export default function Home() {
             alt="The pillars of creation"
             height={300}
             width={900}
+            quality={75}
           ></Image>
         </figure>
       </main>
